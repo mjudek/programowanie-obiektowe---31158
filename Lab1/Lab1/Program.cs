@@ -46,13 +46,13 @@ do
 } while (password != "admin123");
 
 Console.WriteLine("Zalogowano pomyslnie!");
-*/
+
 
 int number;
 do
 {
     Console.Write("Podaj liczbę wiekszą od 0:  ");
     number = Convert.ToInt32(Console.ReadLine());
-} while (number < 0 && number != 0);
+} while (number <= 0);
 Console.WriteLine("Gratulacje");
-
+*/
