@@ -55,4 +55,12 @@ do
     number = Convert.ToInt32(Console.ReadLine());
 } while (number <= 0);
 Console.WriteLine("Gratulacje");
+
+int number = 0;
+string[] citys = { "Krakow", "Wroclaw", "Poznan", "Gdansk", "Warszawa" };
+foreach (string city in citys)
+{
+    number++;
+    Console.WriteLine("Miasto " + number + " " + city);   
+}
 */
