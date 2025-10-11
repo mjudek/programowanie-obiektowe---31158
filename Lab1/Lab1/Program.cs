@@ -64,3 +64,18 @@ foreach (string city in citys)
     Console.WriteLine("Miasto " + number + " " + city);   
 }
 */
+
+class Animal
+{
+    public void eat() => Console.WriteLine("Zwierzak je");
+}
+
+class Dog : Animal
+{
+    public void Bark () => Console.WriteLine("Pies szczeka");
+}
+
+class Cat : Animal
+{
+    public void Miau () => Console.WriteLine("kot miauczy");
+}
